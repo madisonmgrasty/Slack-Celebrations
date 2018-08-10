@@ -36,7 +36,7 @@ app.post('/slash-command', function(request, response) {
 			path : '/api/chat.postMessage',
 			method : 'POST',
 			headers : {
-				'Authorization': 'Bearer xoxp-403353889696-403825610948-410606203173-d0a5c221e6a93c29d5bab4126d2500e0',
+				'Authorization': 'Bearer xoxp-token',
 			  'Content-Type' : 'application/json; charset=utf-8'
 			}
 		};
